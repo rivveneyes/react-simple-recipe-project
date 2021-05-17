@@ -4,7 +4,7 @@ import { RecipeProvider } from "../App";
 
 export default function RecipeList({ recipes }) {
   const { handleNewRecipe } = useContext(RecipeProvider);
-
+  
   return (
     <div className="recipe-list">
       <div>
