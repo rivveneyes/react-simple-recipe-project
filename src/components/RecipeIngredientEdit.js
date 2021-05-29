@@ -9,6 +9,7 @@ export default function RecipeIngredientEdit(props) {
     <>
       <input
         className="recipe-edit__input"
+        placeholder="Name"
         type="text"
         value={ingredient.name}
         onChange={(e) => {
@@ -17,6 +18,7 @@ export default function RecipeIngredientEdit(props) {
       />
       <input
         className="recipe-edit__input"
+        placeholder="Amount"
         type="text"
         value={ingredient.amount}
         onChange={(e) => {
@@ -32,4 +34,3 @@ export default function RecipeIngredientEdit(props) {
     </>
   );
 }
- 

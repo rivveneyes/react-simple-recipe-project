@@ -35,4 +35,6 @@
 }
 .recipe__instrustions {
   white-space: pre-wrap;
+  text-decoration: underline;
+  overflow: auto;
 }

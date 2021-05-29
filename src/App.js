@@ -67,8 +67,11 @@ function App() {
   return (
     <>
       <RecipeProvider.Provider value={recipeProvider}>
-        <RecipeList recipes={recipes} />
-        {selectedRecipe && <RecipeEdit recipe={selectedRecipe} />}
+        <h1 className="heading">Recipes App</h1>
+        <div className="flex-container">
+          <RecipeList recipes={recipes} />
+          {selectedRecipe && <RecipeEdit recipe={selectedRecipe} />}
+        </div>
       </RecipeProvider.Provider>
     </>
   );

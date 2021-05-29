@@ -33,7 +33,7 @@ export default function RecipeEdit({ recipe }) {
     <div className="recipe-edit">
       <div className="recipe-edit__remove-button-container">
         <button
-          onChange={() => {
+          onClick={() => {
             handleRecipeSelect(undefined);
           }}
           className="btn recipe-edit__remove-button"
@@ -110,7 +110,7 @@ export default function RecipeEdit({ recipe }) {
       <div className="recipe-edit__add-ingredient-btn-container">
         <button
           className="btn btn--primary"
-          onChange={() => handleIngredientAdd()}
+          onClick={() => handleIngredientAdd()}
         >
           Add ingredient
         </button>
