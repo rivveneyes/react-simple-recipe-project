@@ -1,5 +1,5 @@
 # Simple-Recipes-App
-<h1>This site was made with JS-'react',CSS,XAML,</h1>
+<h1>This site was made with JS-'React',CSS,XAML,</h1>
 <h2>To try click <a href='https://recipers-app.netlify.app/'>HERE</a><h2>
 <img src="Recipe App.png" alt="img of search gallery app">
 
